@@ -1,0 +1,7 @@
+﻿services:
+  quiz:
+    image: quiz
+    build:
+      context: .
+      dockerfile: Quiz/Dockerfile
+
